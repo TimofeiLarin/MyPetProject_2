@@ -1,3 +1,20 @@
+import { createGlobalStyle } from 'styled-components';
+import Countries from '../components/Countries';
+
+const GlobalStyle = createGlobalStyle`
+    html{
+      font-family: 'Roboto', suns-serif;
+    }
+    h2{
+      margin: 0 0 10px;
+    }
+`;
+
 export default function Index() {
-  return <p>Countries</p>
+  return (
+    <div>
+      <GlobalStyle />
+      <Countries />
+    </div>
+  );
 }
