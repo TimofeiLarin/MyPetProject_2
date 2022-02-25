@@ -1,0 +1,31 @@
+{
+  "name": "mypetproject_-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimofeiLarin/MyPetProject_2.git"
+  },
+  "author": "Timofei Larin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimofeiLarin/MyPetProject_2/issues"
+  },
+  "homepage": "https://github.com/TimofeiLarin/MyPetProject_2#readme",
+  "dependencies": {
+    "next": "^12.1.0",
+    "normalize": "^0.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.5"
+  }
+}
