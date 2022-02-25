@@ -7,7 +7,7 @@ const CountryData = ({ country }) => {
     <Container>
       {error && <p className='message error'>Error...</p>}
       {loading && <p className='message'>Loading...</p>}
-      {data && !!Object.keys(data).length && !error && !loading &&(
+      {data && !!Object.keys(data).length && !error && !loading && (
         <>
           <h2>Statistic</h2>
           <div className='stats'>
@@ -20,7 +20,6 @@ const CountryData = ({ country }) => {
           </div>
         </>
       )}
-      
     </Container>
   );
 };
@@ -37,7 +36,7 @@ const Container = styled.div`
   border: 3px solid #a60003;
   border-radius: 5px;
   .message {
-    color:green;
+    color: green;
     position: absolute;
     left: 0;
     bottom: 0;

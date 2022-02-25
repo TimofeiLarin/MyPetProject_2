@@ -31,7 +31,7 @@ const Countries = () => {
       <div className='option' key={id} onClick={() => handleClick(name)}>
         <img src={flagUrl} alt={name} />
         <span>{name}</span>
-      </div> 
+      </div>
     );
   };
 
